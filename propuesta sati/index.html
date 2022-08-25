@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="hola.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <span id="hambur"></span>
+            <span id="hambur2"></span>
+            <span id="hambur3"></span> 
+        </label>
+        <a href="#" class="logo">SATI</a>
+        <ul id="navs">
+            <li><a href="#" onclick="hidenBar()">Home</a></li>
+            <li><a href="#" onclick="hidenBar()">About</a></li>
+            <li><a id="sub1" href="#" onclick="hidenBar()">Services <i id="row1" class="material-icons">expand_more</i></a>
+                <ul id="sub1list">
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                    <li><a href="#">Item 4</a></li>
+                    <li><a href="#">Item 5</a></li>
+                </ul>
+            </li>
+            <li><a href="#" onclick="hidenBar()">Portafolio</a></li>
+            <li><a href="#" onclick="hidenBar()">Team</a></li>
+            <li><a href="#" onclick="hidenBar()">Contact</a></li>
+
+        </ul>
+
+
+
+    </nav>
+
+
+    <section class="banner">
+
+
+
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/dress1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/dress.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/dress2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/dress3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </section>
+
+    <h2 style="text-align: center; margin-top: 90px; border-bottom: 1px solid #000;">COLLECION OTOÑO</h2>
+    <div class="cont">
+        <div class="cont-carrucel">
+
+            <div class="g-contain">
+
+                <button aria-label="Previous" class="prev"><i class="material-icons">chevron_left</i></button>
+
+
+
+                <div class="g-glider">
+
+
+                    <div class="item_glider">
+                        <img src="img/vest/vest1.webp" alt="Amarrillo">
+                        <p style="color: rgb(156, 2, 51);"><del style="color: grey;">$2500</del> $2300</p>
+                        <p>Vestido mesti</p>
+                        <p>183744</p>
+                        <a class="btn btn-link" style="margin-right: 5px; margin-top: 5px;">Ver más</a>
+
+                    </div>
+
+                    <div class="item_glider" href="#">
+                        <img src="img/vest/vest2.webp" alt="Amarrillo">
+                        <p style="color: rgb(156, 2, 51);"><del style="color: grey;">$2500</del> $2300</p>
+                        <p>Vestido mesti</p>
+                        <p>183744</p>
+                        <a class="btn btn-link" style="margin-right: 5px; margin-top: 5px;">Ver más</a>
+                    </div>
+
+                    <div class="item_glider">
+                        <img src="img/vest/vest3.webp" alt="Amarrillo">
+                        <p style="color: rgb(156, 2, 51);"><del style="color: grey;">$2500</del> $2300</p>
+                        <p>Vestido mesti</p>
+                        <p>183744</p>
+                        <a class="btn btn-link" style="margin-right: 5px; margin-top: 5px;">Ver más</a>
+                    </div>
+
+                    <div class="item_glider">
+                        <img src="img/vest/vest4.webp" alt="Amarrillo">
+                        <p style="color: rgb(156, 2, 51);"><del style="color: grey;">$2500</del> $2300</p>
+                        <p>Vestido mesti</p>
+                        <p>183744</p>
+                        <a class="btn btn-link" style="margin-right: 5px; margin-top: 5px;">Ver más</a>
+                    </div>
+
+
+                    <div class="item_glider">
+                        <img src="img/vest/vest5.webp" alt="Amarrillo">
+                        <p style="color: rgb(156, 2, 51);"><del style="color: grey;">$2500</del> $2300</p>
+                        <p>Vestido mesti</p>
+                        <p>183744</p>
+                        <a class="btn btn-link" style="margin-right: 5px; margin-top: 5px;">Ver más</a>
+                    </div>
+
+
+                    <div class="item_glider">
+                        <img src="img/vest/vest6.webp" alt="Amarrillo">
+                        <p style="color: rgb(156, 2, 51);"><del style="color: grey;">$2500</del> $2300</p>
+                        <p>Vestido mesti</p>
+                        <p>183744</p>
+                        <a class="btn btn-link" style="margin-right: 5px; margin-top: 5px;">Ver más</a>
+                    </div>
+
+
+                    <div class="item_glider">
+                        <img src="img/vest/vest7.webp" alt="Amarrillo">
+                        <p style="color: rgb(156, 2, 51);"><del style="color: grey;">$2500</del> $2300</p>
+                        <p>Vestido mesti</p>
+                        <p>183744</p>
+                        <a class="btn btn-link" style="margin-right: 5px; margin-top: 5px;">Ver más</a>
+                    </div>
+
+
+                </div>
+                <button aria-label="Next" class="next"><i class="material-icons" >chevron_right</i></button>
+
+
+
+
+            </div>
+
+            <div role="tablist" class="g-dots"></div>
+        </div>
+
+    </div>
+
+
+
+
+    <h2 style="text-align: center; margin-top: 90px; border-bottom: 1px solid #000;">COLLECION INVIERNO</h2>
+    <div class="cont">
+        <div class="cont-carrucel2">
+
+            <div class="g-contain">
+
+                <button aria-label="Previous" class="prev"><i class="material-icons">chevron_left</i></button>
+
+
+
+                <div class="g-glider">
+
+
+                    <div class="item_glider">
+                        <img src="img/vest/vest1.webp" alt="Amarrillo">
+                        <p style="color: rgb(156, 2, 51);"><del style="color: grey;">$2500</del> $2300</p>
+                        <p>Vestido mesti</p>
+                        <p>183744</p>
+                        <a class="btn btn-link" style="margin-right: 5px; margin-top: 5px;">Ver más</a>
+
+                    </div>
+
+                    <div class="item_glider" href="#">
+                        <img src="img/vest/vest2.webp" alt="Amarrillo">
+                        <p style="color: rgb(156, 2, 51);"><del style="color: grey;">$2500</del> $2300</p>
+                        <p>Vestido mesti</p>
+                        <p>183744</p>
+                        <a class="btn btn-link" style="margin-right: 5px; margin-top: 5px;">Ver más</a>
+                    </div>
+
+                    <div class="item_glider">
+                        <img src="img/vest/vest3.webp" alt="Amarrillo">
+                        <p style="color: rgb(156, 2, 51);"><del style="color: grey;">$2500</del> $2300</p>
+                        <p>Vestido mesti</p>
+                        <p>183744</p>
+                        <a class="btn btn-link" style="margin-right: 5px; margin-top: 5px;">Ver más</a>
+                    </div>
+
+                    <div class="item_glider">
+                        <img src="img/vest/vest4.webp" alt="Amarrillo">
+                        <p style="color: rgb(156, 2, 51);"><del style="color: grey;">$2500</del> $2300</p>
+                        <p>Vestido mesti</p>
+                        <p>183744</p>
+                        <a class="btn btn-link" style="margin-right: 5px; margin-top: 5px;">Ver más</a>
+                    </div>
+
+
+                    <div class="item_glider">
+                        <img src="img/vest/vest5.webp" alt="Amarrillo">
+                        <p style="color: rgb(156, 2, 51);"><del style="color: grey;">$2500</del> $2300</p>
+                        <p>Vestido mesti</p>
+                        <p>183744</p>
+                        <a class="btn btn-link" style="margin-right: 5px; margin-top: 5px;">Ver más</a>
+                    </div>
+
+
+                    <div class="item_glider">
+                        <img src="img/vest/vest6.webp" alt="Amarrillo">
+                        <p style="color: rgb(156, 2, 51);"><del style="color: grey;">$2500</del> $2300</p>
+                        <p>Vestido mesti</p>
+                        <p>183744</p>
+                        <a class="btn btn-link" style="margin-right: 5px; margin-top: 5px;">Ver más</a>
+                    </div>
+
+
+                    <div class="item_glider">
+                        <img src="img/vest/vest7.webp" alt="Amarrillo">
+                        <p style="color: rgb(156, 2, 51);"><del style="color: grey;">$2500</del> $2300</p>
+                        <p>Vestido mesti</p>
+                        <p>183744</p>
+                        <a class="btn btn-link" style="margin-right: 5px; margin-top: 5px;">Ver más</a>
+                    </div>
+
+
+                </div>
+                <button aria-label="Next" class="next"><i class="material-icons" >chevron_right</i></button>
+
+
+
+
+            </div>
+
+            <div role="tablist" class="g-dots"></div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="hola.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+
+
+    <div class="f-whats">
+
+        <img src="img/media/whatssap.png">
+    </div>
+    <footer>
+
+        <div class="footer-container">
+
+
+            <div>
+                <p>Tel. +52 476 123 84</p>
+                <p>Dirección:</p>
+                <p>Aquiles Serdan #1623 Col. Santa rita.</p>
+                <p>San Francisco del Rincón Gto.</p>
+            </div>
+
+            <div>
+
+                <img src="img/logoss.png">
+            </div>
+
+            <div>
+
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="#" target="_blank"><img src="img/media/instagram.png" class="img-fluid"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" target="_blank"><img src="img/media/whatssap.png" class="img-fluid"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" target="_blank"><img src="img/media/maps.png" class="img-fluid"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" target="_blank"><img src="img/media/facebook.png" class="img-fluid"></a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+        </div>
+        <p>
+            © 2022 Sati Boutique | Derechos Reservados
+        </p>
+
+
+    </footer>
+
+
+
+</body>
+
+</html>
+
+</html>
